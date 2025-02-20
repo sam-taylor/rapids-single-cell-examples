@@ -21,7 +21,7 @@ import cugraph
 import time
 import dask
 from cuml.dask.common.part_utils import _extract_partitions
-from cuml.common.memory_utils import with_cupy_rmm
+from cuml.internals.memory_utils import with_cupy_rmm
 
 import numpy as np
 import pandas as pd

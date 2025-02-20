@@ -1,0 +1,35 @@
+name: rapids-hlca
+
+channels:
+  - rapidsai
+  - rapidsai-nightly
+  - nvidia
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - cudf
+  - cuml
+  - cudatoolkit
+  - python
+  - numba
+  - numpy
+  - cupy
+  - scanpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  
+  # HLCA-specific
+  - leidenalg
+  - python-igraph
+  - umap-learn
+  
+  - pip
+  - pip:
+      - jupyter-server-proxy
+      - git+https://github.com/cjnolet/AtacWorks.git
