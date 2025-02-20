@@ -263,7 +263,6 @@ dependencies:
   - pylibraft=25.02.00=cuda12_py312_250213_gbdcc918d_0
   - pynndescent=0.5.13=pyhd8ed1ab_1
   - pynvjitlink=0.5.0=py312hf640dd1_0
-  - pynvml=12.0.0=pyhd8ed1ab_0
   - pyparsing=3.2.1=pyhd8ed1ab_0
   - pysocks=1.7.1=pyha55dd90_7
   - python=3.12.9=h9e4cc4f_0_cpython
@@ -329,6 +328,8 @@ dependencies:
   - zstandard=0.23.0=py312hef9b889_1
   - zstd=1.5.6=ha6fb4c9_0
   - pip:
+    - jupyterlab_nvdashboard==0.12.0
+    - rapids_singlecell==0.11.1
     - wget==3.2
 
 prefix: "/home/sam3557/miniconda3/envs/rapids-25.02"
